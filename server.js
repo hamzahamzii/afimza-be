@@ -51,6 +51,4 @@ app.delete("/thoughts/:id", (req, res) => {
 });
 
 // STARTING SERVER
-app.listen(PORT, "localhost", () => {
-  console.log("started listening");
-});
+app.listen(PORT);
